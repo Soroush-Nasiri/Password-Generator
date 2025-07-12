@@ -36,4 +36,5 @@ def Generate_Password(length):
     
     return shuffled
 
-print(Generate_Password(12))
+for i in range(12):
+    print(Generate_Password(i))
